@@ -11,7 +11,7 @@ public class Client {
 			// aufgerufen werden.
 			//
 			// Strenge Implementierung gegen das Interface Translator gewuenscht!
-
+			System.out.println("test123");
 			System.out.println("Das Ergebnis der Berechnung: " +
 					"[das Ergebnis an dieser Stelle]"  );
 

@@ -1,4 +1,6 @@
-package org.hbrs.s1.ws22.uebung1.control;
+package org.hbrs.s1.ws22.uebung1.control.factory;
+
+import org.hbrs.s1.ws22.uebung1.control.GermanTranslator;
 
 /**
  * Verwendung des Factory Method Design Pattern (GoF)

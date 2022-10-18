@@ -2,11 +2,16 @@ package org.hbrs.se1.ws22.uebung2;
 
 import java.util.ArrayList;
 
+/*
+ * @author aazemi2s
+ */
+
 class Container {
 
-    static ArrayList<Integer> member;
+    //bei ArrayList<Integer> kriege ich diese Probleme nicht :/
+    static ArrayList<Member> member;
     static void Member(){
-        ArrayList<Integer> member = new ArrayList<>();
+        ArrayList<Member> member = new ArrayList<>();
         Container.member = member;
     }
 }

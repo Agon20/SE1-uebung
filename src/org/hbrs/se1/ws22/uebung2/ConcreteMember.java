@@ -2,6 +2,10 @@ package org.hbrs.se1.ws22.uebung2;
 
 public class ConcreteMember implements Member{
 
+    public static void createMember(){
+        Container.Member();
+    }
+
     public static void addMember(int ID) throws ContainerException {
         while(Container.member.listIterator().hasNext()){
             if(Container.member.listIterator().next() == ID){

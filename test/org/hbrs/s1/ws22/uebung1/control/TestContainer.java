@@ -5,6 +5,8 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeAll;
 
+import java.awt.*;
+
 import static org.junit.Assert.assertEquals;
 
 
@@ -12,6 +14,7 @@ public class TestContainer {
     @BeforeAll
     public static void init(){
         System.out.println("before tests");
+        ConcreteMember.createMember();
         System.out.println("let's test...");
     }
     @AfterAll

@@ -13,3 +13,13 @@ public interface Member {
     public String toString();
 
 }
+/*
+Listen -> Util package
+
+-arraylist, linkedlist
+-list ->Interface:
+      +dump
+      +remove
+      +size():int
+
+ */

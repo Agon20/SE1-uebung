@@ -4,6 +4,9 @@ import org.hbrs.s1.ws22.uebung1.control.GermanTranslator;
 import org.hbrs.s1.ws22.uebung1.control.Translator;
 import org.hbrs.s1.ws22.uebung1.control.factory.TranslatorFactory;
 
+/*
+ * @author aazemi2s
+ */
 public class Client implements Translator {
 
 		/*
@@ -15,6 +18,18 @@ public class Client implements Translator {
 			// aufgerufen werden.
 			//
 			// Strenge Implementierung gegen das Interface Translator gewuenscht!
+
+			//Statt GermanTranslator kann man hier auch translator schreiben,
+			// um bei nutzen eines anderen Translator, zbs. Englisch,
+			// ohne Benennungs-Problem ändern kann (Dedekation(?))
+
+			//schau mal wie du anders die Referenz aus den translator hinkriegen kannst
+			// was macht ein Assembler? (Dependency Injection bzw DI)
+			// psvm enter
+			//mit extends under das Interface, alles nicht mehr nötig, direkt nutzen no reference (quick and dirty)
+			//Implementierungsvererbung nennt man das
+
+
 
 			GermanTranslator translator = TranslatorFactory.createGermanTranslator();
 			String result = translator.translateNumber(1);

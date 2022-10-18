@@ -13,6 +13,16 @@ public class GermanTranslatorTest {
         int input2 = 5;
         int input3 = 121;
 
+        //@BeforeEach -> new GermanTranslator()
+        // startet jedes mal vor der Testmethode
+        //nutze danach @AfterEach, @BeforAll, @AfterAll
+
+        //probier mal mit void ... Exception thrown = assertThrows...
+        // assertEquals
+
+        //Schau dir was void init(); ist
+
+
         //test 1
         System.out.println("Testvorgang: 1 startet...");
         assertEquals("Huch, what happened her... :o",GermanTranslator.translateNumber(input1),

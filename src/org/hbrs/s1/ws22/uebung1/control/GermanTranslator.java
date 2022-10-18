@@ -8,6 +8,9 @@ public class GermanTranslator implements Translator {
 	/**
 	 * Methode zur Übersetzung einer Zahl in eine String-Repraesentation
 	 */
+
+	//probier nächstes mal mit ...translateNumber(int number) throws ...{}
+
 	public String translateNumber(int number) {
 		// [ihr Source Code aus Übung 1-2]
 		String[] zahl = {"eins", "zwei", "drei", "vier", "fünf", "sechs", "sieben", "acht", "neun", "zehn"};

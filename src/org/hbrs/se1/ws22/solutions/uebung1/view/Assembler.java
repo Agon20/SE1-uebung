@@ -7,11 +7,11 @@ public class Assembler {
 
     public Assembler() {
         GermanTranslator germanTranslator = new GermanTranslator();
-        Client client = new Client( germanTranslator );
+        ClientDI client = new ClientDI( germanTranslator );
 
         client.display(1);
 
-        client.setTranslator( new EnglishTranslator());
+        // client.setTranslator( new EnglishTranslator());
 
         client.display(2);
     }

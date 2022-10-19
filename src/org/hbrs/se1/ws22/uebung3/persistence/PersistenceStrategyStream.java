@@ -54,6 +54,7 @@ public class PersistenceStrategyStream<E> implements PersistenceStrategy<E> {
         //
         // Initiating the Stream (can also be moved to method openConnection()... ;-)
         // fis = new FileInputStream( " a location to a file" );
+        // Tipp: Use a directory (ends with "/") to implement a negative test case ;-)
         // ois = new ObjectInputStream(fis);
 
         // Reading and extracting the list (try .. catch ommitted here)
